@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 800px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: hsl(212, 45%, 89%);
+}
+.container {
+  width: 324px;
+  height: 503px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.sec-img > img {
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+}
+.main-contain {
+  width: 16rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main-contain > h1 {
+  font-size: 1.4em;
+  font-family: "Outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+}
+.main-contain > p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(220, 15%, 55%);
+}
+#personal-info {
+  width: 400px;
+  height: 30px;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    height: 667px;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(212, 45%, 89%);
+  }
+  .container {
+    width: 320px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+
+  .sec-img > img {
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+  }
+  .main-contain {
+    width: 16rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .main-contain > h1 {
+    font-size: 1.4em;
+    font-family: "Outfit", sans-serif;
+    color: hsl(218, 44%, 22%);
+  }
+  .main-contain > p {
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Outfit", sans-serif;
+    color: hsl(220, 15%, 55%);
+  }
+  #personal-info {
+    width: 400px;
+    height: 30px;
+    text-align: center;
+  }
+}
